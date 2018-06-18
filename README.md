@@ -25,5 +25,3 @@ You need the following installed:
 * [Kotlin](https://kotlinlang.org/) - Used to build the Android client
 * [Pusher](https://pusher.com/) - APIs to enable devs building realtime features
 * [NodeJS](https://nodejs.org/) - Used to buildthe server
-
-## Acknowledgments
