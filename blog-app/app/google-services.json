@@ -1,0 +1,81 @@
+{
+  "project_info": {
+    "project_number": "977025387749",
+    "firebase_url": "https://soccer-blog-8069f.firebaseio.com",
+    "project_id": "soccer-blog-8069f",
+    "storage_bucket": "soccer-blog-8069f.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:977025387749:android:69a6f35795065fe9",
+        "android_client_info": {
+          "package_name": "com.example.soccerblog"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "977025387749-nvaulqu7gbppllv2hn5db2qquvfjff6m.apps.googleusercontent.com",
+          "client_type": 3
+        },
+        {
+          "client_id": "977025387749-nvaulqu7gbppllv2hn5db2qquvfjff6m.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCTOO1uZ0PfAF6OzL2CTo8ARKJGxoNVokc"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:977025387749:android:e042aa6d01df51cd",
+        "android_client_info": {
+          "package_name": "com.example.soccerliveblog"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "977025387749-nvaulqu7gbppllv2hn5db2qquvfjff6m.apps.googleusercontent.com",
+          "client_type": 3
+        },
+        {
+          "client_id": "977025387749-nvaulqu7gbppllv2hn5db2qquvfjff6m.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCTOO1uZ0PfAF6OzL2CTo8ARKJGxoNVokc"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

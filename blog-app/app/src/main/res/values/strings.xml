@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">SoccerLiveBlog</string>
+    <string name="channel_name">soccer</string>
+    <string name="channel_description">Listen to soccer notifications</string>
+</resources>
