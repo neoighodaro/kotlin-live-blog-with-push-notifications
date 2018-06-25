@@ -22,34 +22,34 @@ app.get('/posts', (req, res) => {
 
   var arrayTime = ["15'", "10'", "5'"];
 
+  
+  let sendPushNotification = () => {
+    var currentPost = arrayEvents.pop()
+    var currentTime = arrayTime.pop()
+
+    pushNotifications.publish(
+      ['world-cup'],{
+      fcm: {
+        notification: {
+          title: 'New post',
+          body: currentPost
+        }
+      }
+    }).then((publishResponse) => {
+      console.log('Just published:', publishResponse.publishId);
+    });
+
+    pusher.trigger('soccer', 'world-cup', {currentTime, currentPost});
+  }
+
+  sendPushNotification()
+
   let sendToPusher = setInterval(() => {
-
-  var currentPost = arrayEvents.pop()
-  var currentTime = arrayTime.pop()
-
-    // push notifications
-  pushNotifications.publish(
-        ['world-cup'],{
-          fcm: {
-            notification: {
-              title: 'New post',
-              body: currentPost
-            }
-          }
-
-      }).then((publishResponse) => {
-        console.log('Just published:', publishResponse.publishId);
-      }).catch((error) => {
-        console.log('Error:', error);
-      });
-
-        pusher.trigger('soccer', 'world-cup', {currentTime, currentPost});
-
+    sendPushNotification()
 
     if (arrayEvents.length == 0) {
       clearInterval(sendToPusher)
     }
-    // post after every 5seconds
   }, 5000);
 
   res.json({success: 200})
