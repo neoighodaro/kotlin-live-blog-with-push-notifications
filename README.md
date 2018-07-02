@@ -1,6 +1,6 @@
 # Soccer Blog App
 
-This app mimics the usual realtime soccer commentary we experience in soccer blogs. There is a tutorial [here](https://blog.pusher.com/) to guide you.
+This app mimics the usual realtime soccer commentary we experience in soccer blogs. There is a tutorial [here](https://pusher.com/tutorials/live-blog-kotlin-push-notifications) to guide you.
 
 ## Getting Started
 
